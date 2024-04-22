@@ -5,7 +5,7 @@ function fibonacciSeries(){
   for(var i = 0; i<10; i++){
     // fiboArr[i+2] = fiboArr[i] + fiboArr[i+1];
     var x = fiboArr[i] + fiboArr[i+1];
-    fiboArr.append(x);
+    fiboArr.push(x);
   }
   for(var i = 0; i<10; i++){
     console.log(fiboArr[i] + " ");
