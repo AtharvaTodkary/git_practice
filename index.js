@@ -6,7 +6,7 @@ function fibonacciSeries(){
       fiboArr.push(x);
   }
   for(var i = 0; i<100; i++){
-    console.log(fiboArr[i] + " ");
+    console.log(fiboArr[i]*fiboArr[i] + " ");
   }
 }
 
