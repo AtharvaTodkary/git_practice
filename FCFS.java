@@ -63,9 +63,9 @@ public class FCFS {
         System.out.println("Average Waiting Time: " + avgWT);
         System.out.println("Average TAT: " + avgTAT);
     }
+}
 
     public static void main(String[] args) {
         FCFS scheduler = new FCFS();
         scheduler.execute();
     }
-}
