@@ -1,7 +1,7 @@
 var fiboArr = [0,1];
 
 function fibonacciSeries(){
-  for(var i = 0; i<10; i++){
+  for(var i = 0; i<100; i++){
       var x = fiboArr[i] + fiboArr[i+1];
       fiboArr.push(x);
   }
