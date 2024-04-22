@@ -7,4 +7,9 @@ function fibonacciSeries(){
     var x = fiboArr[i] + fiboArr[i+1];
     fiboArr.append(x);
   }
+  for(var i = 0; i<10; i++){
+    console.log(fiboArr[i] + " ");
+  }
 }
+
+fibonacciSeries();
