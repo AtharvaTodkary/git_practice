@@ -7,6 +7,8 @@ git status        #gives the status  of files in the repository(untracked, stage
 
 git add demoat.txt  #adds demoat.txt into repo(not pushing), once added status becomes 'A'
 
+git add .
+
 git commit -m "Atharva has commited"   #commits demoat.txt into repo printing msg "Atharva has commited"
 
 git push origin main   #pushing it into main branch 
